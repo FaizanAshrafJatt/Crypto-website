@@ -497,7 +497,7 @@
     }
   }
 /*banner */
-.box1 video{
+.box1 img{
     animation: border-transform-default 10s linear infinite alternate forwards;
     
     border: 6px solid orange;
