@@ -167,7 +167,7 @@
                     .children("ul")
                     .removeAttr("style")
                     .hide()
-                    .before('<span class="arrow"></span>');
+                    
             } else {
                 $("#main-nav-mobi")
                     .attr("id", "main-nav")
