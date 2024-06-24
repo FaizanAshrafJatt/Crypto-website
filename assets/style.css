@@ -507,6 +507,7 @@
     display: block;
     margin-top:100px;
   width:300px;
+  z-index: 90;
   height: 210px;
   
 }@-webkit-keyframes border-transform-default {
@@ -753,3 +754,90 @@
   margin-top: -2px;
   margin-left: -10px;
   }
+
+  /* App download seciton */
+  .app__area {
+    
+    
+  position: relative;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  margin-top: -27px;
+  margin-bottom: 168px;
+   /* Gradient resembling the Google Play button */
+   padding: 32px 30px 29px;
+}
+
+.app__area__content {
+    max-width: 720px;
+}
+
+.app__area__content .button__group {
+    margin-top: 34px;
+   
+}
+
+.app__area__content .button__group .button {
+    width: auto;
+    padding: 15px 30px 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #006bff;
+    color: #ffffff;
+}
+
+.app__area__content .button__group .button i {
+    font-size: 18px;
+}
+
+.app__area__content .button__group .button:first-of-type {
+    margin-right: 24px;
+}
+
+.app__area__content .button__group .button:hover {
+    background-color: #ffffff;
+    color: #006bff;
+}
+
+.android {
+    position: absolute;
+    bottom: 0px;
+    right: 54px;
+    top: -303px;
+    width: 578px;
+    height: 738px;
+
+}
+
+.cont-app{
+    background: #5d1e79;
+  padding: 32px 30px 0px;
+  border-radius: 26px;
+}
+@media only screen and (max-width: 1199px) {
+    .app__area {
+        margin-top: 0px;
+        padding: 100px 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .app__area {
+        padding: 60px 12px;
+    }
+    .app__area__content h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .app__area__content .hero__content__link {
+        margin-top: 25px;
+    }
+    .app__area__content .hero__content__link img {
+        max-width: 120px;
+        height: 40px;
+    }
+}
