@@ -4213,6 +4213,10 @@ screen and (max-height: 300px) {
 .flat-accordion .flat-toggle .toggle-title {
     text-transform: none;
     position: relative;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
 .flat-accordion .flat-toggle .toggle-title span {
