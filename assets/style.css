@@ -830,6 +830,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .banner__right{
+        display: none;
+    }
     .app__area {
         padding: 60px 12px;
     }
